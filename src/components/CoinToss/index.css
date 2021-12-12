@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  font-family: 'Roboto';
+}
+
+.inner-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.main-heading {
+  color: #a35200;
+  font-size: 35px;
+}
+
+.para {
+  color: #334155;
+  font-size: 20px;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+}
+
+.btn {
+  width: 80px;
+  background-color: #f9d423;
+  border-style: none;
+  color: #a35200;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.para-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.para1 {
+  color: #475569;
+  font-size: 14px;
+  margin-right: 20px;
+}
